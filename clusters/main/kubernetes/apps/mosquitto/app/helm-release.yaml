@@ -60,4 +60,4 @@ spec:
             src:
               enabled: true
     auth:
-    enabled: true                      
+      enabled: true                      
