@@ -28,3 +28,4 @@ resources:
   - tailscale/ks.yaml
   - paperless-ngx/ks.yaml
   - guacamole/ks.yaml
+  - home-assistant/ks.yaml
