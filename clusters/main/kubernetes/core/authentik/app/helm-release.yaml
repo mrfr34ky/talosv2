@@ -140,10 +140,10 @@ spec:
               paths:
                 - path: /outpost.goauthentik.io
                   pathType: ImplementationSpecific
-            #- host: "frigate.${DOMAIN_0}"
-              #paths:
-                #- path: /outpost.goauthentik.io
-                  #pathType: ImplementationSpecific
+            - host: "frigate.${DOMAIN_0}"
+              paths:
+                - path: /outpost.goauthentik.io
+                  pathType: ImplementationSpecific
             - host: "lidarr.${DOMAIN_0}"
               paths:
                 - path: /outpost.goauthentik.io
