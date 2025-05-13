@@ -50,6 +50,10 @@ spec:
               enabled: true                          
             src:
               enabled: true
+    homeassistant:
+      trusted_proxies:
+        - 172.16.0.0/16
+        - 172.17.0.0/16          
     cnpg:
       main:
         password: ${HA_CNPG_PWD}
