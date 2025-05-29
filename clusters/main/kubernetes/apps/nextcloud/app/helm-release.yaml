@@ -10,7 +10,7 @@ spec:
   chart:
     spec:
       chart: nextcloud
-      version: 35.0.7
+      version: 35.0.6
       sourceRef:
         kind: HelmRepository
         name: truecharts
@@ -58,7 +58,9 @@ spec:
         password: ${COLLABORA_PWD}
       php:
         memory_limit: 5G
-        upload_limit: 20G   
+        upload_limit: 20G
+      opcache:
+        memory_consumption: 256    
     persistence:
       html:    
         volsync:
