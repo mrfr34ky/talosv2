@@ -28,4 +28,4 @@ resources:
   - guacamole/ks.yaml
   - home-assistant/ks.yaml
   - mosquitto/ks.yaml
-  - ext-jetvm/ks.yaml
+  - ext-jetkvm/ks.yaml
