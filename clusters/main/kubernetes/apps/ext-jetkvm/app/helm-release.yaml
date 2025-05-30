@@ -40,16 +40,12 @@ spec:
         externalIP: 192.168.1.14
         ports:
           main:
-            protocol: https
+            protocol: http
             port: 443
     ingress:
         main:
           enabled: true
           ingressClassName: internal
-          annotations:
-            nginx.ingress.kubernetes.io/backend-protocol: "HTTPS"
-            nginx.ingress.kubernetes.io/ssl-passthrough: "true"
-            nginx.ingress.kubernetes.io/force-ssl-redirect: "true"
           integrations:
             traefik:
               enabled: false
